@@ -1,8 +1,9 @@
 import React from 'react';
+import '../stylesheets/report.css'
 
 function Report({reportText}){
 return(
-    <div>
+    <div className='task-report'>
         {reportText}
     </div>
 )

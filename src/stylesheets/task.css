@@ -18,7 +18,7 @@
   min-height: 65px;
   color: black;
   background-color: #1b9932;
-  margin:5px;
+  margin:0px 5px;
   padding: 8px 15px 8px 20px;
   display: flex;
   justify-content: space-between;
@@ -27,20 +27,22 @@
   border: 1px solid white;
   cursor: pointer;
 }
-.report{
+.task-reports{
   width: 500px;
   min-height: 65px;
   color: black;
-  background-color: #1b9932;
-  margin:5px;
+  background-color: #1b9984;
+  margin:0px 5px;
   padding: 8px 15px 8px 20px;
-  display:block;
+  display:flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   border-radius: 7px;
   border: 1px solid white;
   cursor: pointer;
 }
+
   
   .task-text{
     width:100%;
